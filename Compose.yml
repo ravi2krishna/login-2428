@@ -1,0 +1,18 @@
+services:
+  svc1:
+    image: babu3891/login-2428
+    ports:
+      - "8083:80"
+  svc2:
+    build: ./food
+    image: Babu-3891/rest
+    ports:
+      - "8084:80"
+  svc3:
+    image: nginx
+    ports:
+      - "8085:80"
+    volumes:
+      - /home/ubuntu/app-services/ecomm:/usr/share/nginx/html nginx
+
+
