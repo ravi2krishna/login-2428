@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+# - Comment
+=======
+# - Comment
+# Define Key Values
+key: value
+name: ravi
+city: hyderabad
+mobile: 9999999999
+
+# Not a Key Value Correct way 
+name:john
+name: ravi
+  city: hyderabad
+  mobile: 9999999999
+
+# Dictionary or Maps
+# Set of properties grouped together 
+person:
+  name: ravi
+  city: hyderabad
+  mobile: 9999999999
+
+# This is not a dictionary
+person:
+name: john
+city: texas
+mobile: 9999999999  
+
+# Lists or Arrays
+# Collection - Combination of Lists & Dictionaries
+person: # Dictionary 
+  name: kalyan
+  city: pune
+  mobile: 8888888888
+  hobbies: # List
+    - cycling
+    - cooking
+>>>>>>> 0e34a5ecb209ef2f7c0a47f6e1557159e54a2b01
