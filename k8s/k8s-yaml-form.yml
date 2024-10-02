@@ -1,0 +1,10 @@
+# In k8s the top level items / attributes 
+apiversion:
+kind:
+metadata:
+spec:
+
+apiversion: # Key: Value
+kind:       # Key: Value
+metadata:   # Dictionary
+spec:       # Lists & Dictionary
