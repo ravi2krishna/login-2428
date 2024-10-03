@@ -8,3 +8,8 @@ spec:
     image: nginx
     ports:
     - containerport: 80
+
+  - name: node
+    image: ravi2krishna/nodejs-api
+    ports:
+    - containerport: 8080
