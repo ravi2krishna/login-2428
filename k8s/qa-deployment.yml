@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   # Unique key of the Deployment instance
   name: ecomm
+  namespace: qa
 spec:
   # 1 Pod should exist at all times.
   replicas: 1
