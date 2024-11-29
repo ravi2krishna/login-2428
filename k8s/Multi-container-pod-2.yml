@@ -1,0 +1,16 @@
+# yaml for POD
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Multi-pod-2
+spec: 
+  containers:
+  - name: nginx 
+    image: nginx
+    ports:
+    - containerport: 80
+    
+  - name: node
+    image: ravi2krishna/nodejs-api
+    ports:
+    - containerPort: 8080
